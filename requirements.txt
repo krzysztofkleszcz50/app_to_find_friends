@@ -5,6 +5,4 @@ pycaret.clustering
 load_model
 pycaret
 plotly.express
-pycaret load load_model
-pycaret predict_model
 
