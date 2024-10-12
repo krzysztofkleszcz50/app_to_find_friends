@@ -26,8 +26,6 @@ def get_all_participants():
 
     return df_with_clusters
 
-st.balloons()
-
 with st.sidebar:
     st.header("Witaj przyjacielu! Pomożemy znaleźć Ci fajnych ziomków")
     age = st.selectbox("Wiek", ['<18', '25-34', '45-54', '35-44', '18-24', '>=65', '55-64', 'unknown'])
